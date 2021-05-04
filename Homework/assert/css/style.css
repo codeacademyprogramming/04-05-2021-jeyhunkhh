@@ -176,4 +176,37 @@ ul {
   width: 30px;
   padding-left: 5px;
 }
+
+#support h2 {
+  font-size: 36px;
+  color: #272D4E;
+  margin-bottom: 25px;
+}
+
+#support p {
+  color: #94A2B3;
+}
+
+#support .image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#info {
+  background: #5F37EF;
+  padding: 60px 0px;
+}
+
+#info p {
+  color: #FFFFFF;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+#info a {
+  color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  padding: 15px 30px;
+}
 /*# sourceMappingURL=style.css.map */
