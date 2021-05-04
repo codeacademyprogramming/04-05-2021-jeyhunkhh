@@ -50,3 +50,26 @@
         }
     }
 }
+
+#develop{
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    .image{
+        img{
+            max-width: 100%;
+        }
+    }
+    .content{
+        color: $white-color;
+        margin-top: 80px;
+        a{
+           background-color: $green-color;
+           color: $white-color;
+           padding: 15px 30px; 
+        }
+    }
+    .mb{
+    margin-bottom: 50px;
+    }
+}
