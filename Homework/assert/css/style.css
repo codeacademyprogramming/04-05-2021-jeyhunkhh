@@ -51,6 +51,53 @@ ul {
   color: #272D4E;
 }
 
+.footer-bg {
+  background-color: #7854F7;
+}
+
+.footer-header {
+  padding: 40px 0px;
+}
+
+.footer-header .item span {
+  color: #FFFFFF;
+}
+
+.footer-header .mb {
+  margin-bottom: 8rem;
+}
+
+.footer-body {
+  color: #FFFFFF;
+  padding: 40px 0px;
+  border-top: 1px solid #FFFFFF;
+}
+
+.footer-body h5 {
+  margin-bottom: 20px;
+}
+
+.footer-body a {
+  color: #FFFFFF;
+}
+
+.copyright {
+  background-color: #FFFFFF;
+  padding: 20px 0px;
+}
+
+.copyright .end a {
+  margin-right: 2rem;
+}
+
+.copyright .end p {
+  color: #272D4E;
+}
+
+.copyright .end p span {
+  text-decoration: underline;
+}
+
 #hero {
   background-position: center;
   background-repeat: no-repeat;
