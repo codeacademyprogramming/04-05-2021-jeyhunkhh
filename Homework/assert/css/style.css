@@ -128,7 +128,52 @@ ul {
   padding: 15px 30px;
 }
 
-#develop .mb {
-  margin-bottom: 50px;
+#testimonials {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 180px 0px;
+}
+
+#testimonials .testimonials-header h2 {
+  font-size: 36px;
+  color: #272D4E;
+  margin-bottom: 60px;
+}
+
+#testimonials .testimonials-content {
+  background-color: #FFFFFF;
+  padding: 70px 60px;
+  border-radius: 10px;
+  color: #94A2B3;
+  position: relative;
+  z-index: 0;
+  -webkit-box-shadow: 0 0 10px 5px #d6d6d6;
+          box-shadow: 0 0 10px 5px #d6d6d6;
+}
+
+#testimonials .testimonials-content .bg {
+  width: 150px;
+  position: absolute;
+  top: 15px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: -1;
+}
+
+#testimonials .testimonials-content .arrow {
+  position: absolute;
+  bottom: -15%;
+  right: 10%;
+}
+
+#testimonials .testimonials-content .arrow .left {
+  width: 20px;
+}
+
+#testimonials .testimonials-content .arrow .right {
+  width: 30px;
+  padding-left: 5px;
 }
 /*# sourceMappingURL=style.css.map */
