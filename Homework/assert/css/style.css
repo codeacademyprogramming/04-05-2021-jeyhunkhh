@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
 body {
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   overflow-x: hidden;
   background-color: #ffffff;
@@ -55,6 +55,55 @@ ul {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  padding-top: 100px;
+}
+
+#hero .content {
+  margin-top: -100px;
+}
+
+#hero .content h1 {
+  color: #272D4E;
+  font-size: 50px;
+}
+
+#hero .content p {
+  color: #94A2B3;
+}
+
+#hero .content a span {
+  color: #94A2B3;
+}
+
+#hero .content .btn {
+  background-color: #7854F7;
+  padding: 15px 30px;
+  color: #FFFFFF;
+}
+
+#features {
+  padding-bottom: 80px;
+}
+
+#features .features-header h2 {
+  color: #272D4E;
+  margin-bottom: 40px;
+}
+
+#features .content .item img {
+  max-width: 100%;
+}
+
+#features .content .item .item-body {
+  padding: 0px 20px 0 50px;
+}
+
+#features .content .item .item-body p {
+  font-size: 14px;
+  color: #94A2B3;
+}
+
+#features .content .item .item-body h3 {
+  color: #272D4E;
 }
 /*# sourceMappingURL=style.css.map */
