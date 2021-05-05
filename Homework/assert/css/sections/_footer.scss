@@ -1,0 +1,44 @@
+.footer-bg{
+    background-color: $primary-color;
+}
+
+.footer-header{
+    padding: 40px 0px;
+    .item{
+        span{
+            color: $white-color;
+        }
+    }
+    .mb{
+        margin-bottom: 8rem;
+    }
+}
+
+.footer-body{
+    color: $white-color;
+    padding: 40px 0px;
+    border-top: 1px solid $white-color;
+    h5{
+        margin-bottom: 20px;
+    }
+    a{
+        color: $white-color;
+    }
+}
+
+.copyright{
+    background-color: $white-color;
+    padding: 20px 0px;
+    .end{
+        a{
+            margin-right: 2rem;
+            }
+            p{
+                color: $black-color;
+                span{
+                    text-decoration: underline;
+                }
+            }
+    }
+   
+}
